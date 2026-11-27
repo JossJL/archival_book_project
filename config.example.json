@@ -1,0 +1,23 @@
+{
+  "model": "gemini-3.8-flash",
+  "dpi": 300,
+  "max_allowed_tokens": 500000,
+  "input_dir": "./input_pdfs",
+  "clean_img_dir": "./cleaned_pages",
+  "output_dir": "./transcriptions",
+  "author_context": "British English spelling and idioms. 20th-century typewritten pages with occasional handwritten edits.",
+  "known_entities": [
+    "Example Surname",
+    "Example Town"
+  ],
+  "book_metadata": {
+    "title": "Collected Journals & Memoirs",
+    "subtitle": "",
+    "author": "Author Name",
+    "edition": "First Edition",
+    "publisher_note": "Privately printed family edition.",
+    "transcribed_by": "",
+    "edited_by": ""
+  },
+  "volumes": []
+}
